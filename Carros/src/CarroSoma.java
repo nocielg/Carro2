@@ -1,8 +1,8 @@
 
 public class CarroSoma extends CarrodeCorrida {
 //teste
-	private int potencia;
-	public CarroSoma(String nome, int potencia, int velocidadeMaxima) {
+	private double potencia;
+	public CarroSoma(String nome,double potencia, int velocidadeMaxima) {
 		super(nome, velocidadeMaxima);
 		this.nome = nome;
 		this.potencia = potencia;
